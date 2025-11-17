@@ -37,6 +37,8 @@ public class GenomeCompressor {
 
         String input = BinaryStdIn.readString();
         int length = input.length();
+        // Write out the length to avoid padding bits
+        BinaryStdOut.write(length);
         // Output each nucleotide as a 2 bit int
         for (int i = 0; i < length; i++) {
             BinaryStdOut.write(nucleotides[input.charAt(i) - SHIFT], 2);
@@ -54,11 +56,13 @@ public class GenomeCompressor {
         nucleotides[2] = 'G';
         nucleotides[3] = 'T';
 
-        // Read in the nucleotides until empty, considering that they are 2 bits each
-        while (!BinaryStdIn.isEmpty()) {
+        // Read the # of nucleotides first
+        int length = BinaryStdIn.readInt();
+        // Read in the nucleotides, considering that they are 2 bits each
+        for (int i = 0; i < length; i++) {
             int num = BinaryStdIn.readInt(2);
             // Write the character into the buffer
-            BinaryStdOut.write(nucleotides[num]);
+            BinaryStdOut.write(nucleotides[num], 8);
         }
         BinaryStdOut.close();
     }

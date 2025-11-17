@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73ab661-840a-4b64-b072-3764519be013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryStdIn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryStdOut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlickCompressor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenomeCompressor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genomeExpanded.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genomeTest.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virus.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virusExpanded.txt" afterDir="false" />
+    <list default="true" id="b73ab661-840a-4b64-b072-3764519be013" name="Changes" comment="Working, but has a weird bug still">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenomeCompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenomeCompressor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenomeCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenomeCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genomeExpanded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/genomeExpanded.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genomeTest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/genomeTest.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virus.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virusExpanded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/virusExpanded.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,23 @@
       <option name="presentableId" value="Default" />
       <updated>1723575642960</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working, but has a weird bug still">
+      <option name="closed" value="true" />
+      <created>1763347379135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763347379136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working, but has a weird bug still">
+      <option name="closed" value="true" />
+      <created>1763347421042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763347421042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -94,5 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Working, but has a weird bug still" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working, but has a weird bug still" />
   </component>
 </project>
